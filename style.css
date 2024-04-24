@@ -4,6 +4,22 @@
 body {
   background-color: #061e40;
 }
+@keyframes moveObject {
+    0% {
+      transform: translateX(0); /* starting position */
+    }
+    100% {
+      transform: translateX(900px); /* ending position */
+    }
+  }
+  .container {
+    position: absolute;
+    height: 368px;
+    width: 700px;
+    top: 0px;
+    left: 50px;
+    animation: moveObject 5s forwards;
+  }
 .rays {
   position: absolute;
   top: 200px;
@@ -13,7 +29,7 @@ body {
   height: 300px;
   width: 500px;
   background-color: #ffab04;
-  position: relative;
+  position: absolute;
   top: 200px;
   left: 200px;
   border: 2px solid black;
@@ -25,7 +41,7 @@ body {
   position: absolute;
   top: -2px;
   left: 450px;
-  z-index: 3;
+  z-index: 4;
   border: 2px solid black;
   border-right: 0px;
   border-top: 0px;
@@ -33,10 +49,15 @@ body {
 .edge {
   background-color: rgba(255, 255, 0, 0.461);
   height: 120px;
+  width: 100%;
+  position: absolute;
 }
 .edge1 {
   background-color: rgba(255, 255, 0, 0.256);
-  height: 120px;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 120px;
 }
 .front-lights {
   height: 35px;
@@ -45,7 +66,7 @@ body {
   background-color: white;
   margin-left: 95%;
   position: absolute;
-  top: 160px;
+  top: 40px;
   left: 4px;
   z-index: 4;
   border: 1px solid black;
@@ -55,7 +76,7 @@ body {
   width: 10px;
   background-color: red;
   position: absolute;
-  top: 150px;
+  top: 40px;
   z-index: 5;
   border: 1px solid black;
 }
@@ -64,6 +85,7 @@ body {
   width: 200px;
   margin-left: 150px;
   margin-top: 10px;
+  position: absolute;
 }
 
 .window1 {
@@ -111,6 +133,7 @@ body {
   border-radius: 50%;
   margin-top: 5px;
   margin-left: 5px;
+  position: absolute;
 }
 
 .red-circle2 {
@@ -130,6 +153,7 @@ body {
   border-radius: 50%;
   margin-top: 5px;
   margin-left: 5px;
+  position: absolute;
 }
 
 .red-circle3 {
@@ -157,7 +181,7 @@ body {
 }
 .road {
   border-width: 2px;
-  margin-top: 251px;
+  margin-top: 552px;
   border-color: black;
   width: 100%;
 }
