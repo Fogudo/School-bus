@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: #061e40;
+}
+.rays {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+.blue-box {
+  height: 300px;
+  width: 500px;
+  background-color: #ffab04;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  border: 2px solid black;
+}
+.corner {
+  background-color: #061e40;
+  height: 130px;
+  width: 50px;
+  position: absolute;
+  top: -2px;
+  left: 450px;
+  z-index: 3;
+  border: 2px solid black;
+  border-right: 0px;
+  border-top: 0px;
+}
+.edge {
+  background-color: rgba(255, 255, 0, 0.461);
+  height: 120px;
+}
+.edge1 {
+  background-color: rgba(255, 255, 0, 0.256);
+  height: 120px;
+}
+.front-lights {
+  height: 35px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 95%;
+  position: absolute;
+  top: 160px;
+  left: 4px;
+  z-index: 4;
+  border: 1px solid black;
+}
+.back-lights {
+  height: 35px;
+  width: 10px;
+  background-color: red;
+  position: absolute;
+  top: 150px;
+  z-index: 5;
+  border: 1px solid black;
+}
+.edge > img {
+  height: 30px;
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.window1 {
+  height: 100px;
+  width: 150px;
+  background-color: white;
+  border: 5px solid black;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.window2 {
+  height: 100px;
+  width: 150px;
+  background-color: white;
+  border: 5px solid black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+.driver {
+  height: 80px;
+  z-index: 2;
+  position: absolute;
+  left: 58px;
+  top: 20px;
+}
+
+.red-circle1 {
+  border-radius: 50%;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  border: 2px solid black;
+}
+
+.back-wheel {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.red-circle2 {
+  border-radius: 50%;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 280px;
+  border: 2px solid black;
+}
+
+.front-wheel {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.red-circle3 {
+  border-radius: 50%;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  z-index: -1;
+  border: 2px solid black;
+}
+
+.red-circle4 {
+  border-radius: 50%;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  border: 2px solid black;
+  z-index: -1;
+}
+.road {
+  border-width: 2px;
+  margin-top: 251px;
+  border-color: black;
+  width: 100%;
+}
+.road-under {
+  height: 440px;
+  width: 100%;
+  background-color: black;
+}
